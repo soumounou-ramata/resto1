@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Playfair+Display|Vidaloka');
+
+
+#footer{
+    background-color: #021218;
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+}
+
+#vertiLine1, #vertiLine2{
+    border-left: 0.5px solid rgba(255, 255, 255, 0.25);
+    width: 1px;
+    height: 40%;
+    position: absolute;
+    top: 50%;
+}
+
+#vertiLine1{
+    left: 33.3%;
+}
+
+
+#vertiLine2{
+    left: 66.6%;
+}
+
+#address_info, #contactus_info, #hours_info{
+    position: absolute;
+    top: 51.5%;
+    width: 32%;
+    height: 50%;
+}
+
+#address_info ul, #contactus_info ul, #hours_info ul{
+    list-style: none;
+    text-align: center;
+    margin: 10vh 0 0 -4vw;
+    width: 100%;
+    font: normal normal 12px 'Playfair Display', sans-serif;
+}
+
+
+#address_info ul li, #contactus_info ul li, #hours_info ul li{
+    margin-bottom: 2vh;
+}
+
+#address_info{
+   left: 0;
+}
+
+#contactus_info{
+   left: 34%;
+}
+
+#hours_info{
+   left: 68%;
+}
+
+.segment{
+    font: normal normal 14px 'Playfair Display', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-align: center;
+    list-style-type: none;
+    text-align: center;
+    color: #f4f4f4;
+}
+
+
+#nameFO{
+    font: normal normal 40px 'Vidaloka', sans-serif;
+    text-align: center;
+    padding-top: 15vh;
+    letter-spacing: 0.15em;
+}

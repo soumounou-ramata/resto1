@@ -1,0 +1,146 @@
+#dessertpage .heading{
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70vh;
+}
+
+
+#dessert1, #dessert2, #dessert3, #dessert4{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#dessert1 img, #dessert2 img, #dessert3 img, #dessert4 img{
+    width: 100%;
+    height: 110%;
+}
+
+.headingOverlay{
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#dessertpage .heading p{
+    font: normal normal 18px 'Playfair Display';
+    color: #ffffff;
+    letter-spacing: 0.1em;
+    position: absolute;
+    left: 5%;
+    bottom: 5vh;
+}
+
+#dessertpage .menu{
+    background-color: #f4f4f4;
+    position: absolute;
+    left: 0;
+    top: 70vh;
+    width: 100%;
+    height: 170vh;
+}
+
+.menu ul:first-of-type{
+    font: normal normal 18px 'Playfair Display';
+    text-align: center;
+    list-style: none;
+    color: #151515;
+    letter-spacing: 0.3em;
+    margin-top: 12vh;
+}
+
+.menu ul:first-of-type li:nth-child(2){
+    margin-top: 1.5vh;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+.menu ul:nth-of-type(2), .menu ul:nth-of-type(3){
+    font-family: 'Playfair Display';
+    list-style: none;
+    position: absolute;
+    top: 25vh;
+    width: 43.5%;
+    min-height: 30%;
+}
+
+.menu ul:nth-of-type(2), .menu ul:nth-of-type(4){
+    left: 5%;
+}
+
+.menu ul:nth-of-type(3), .menu ul:nth-of-type(5){
+    right: 5%;
+}
+
+.menu ul:nth-of-type(2) li:nth-child(1), .menu ul:nth-of-type(2) li:nth-child(3), .menu ul:nth-of-type(2) li:nth-child(5), .menu ul:nth-of-type(3) li:nth-child(1), .menu ul:nth-of-type(3) li:nth-child(3), .menu ul:nth-of-type(3) li:nth-child(5),
+.menu ul:nth-of-type(4) li:nth-child(1), .menu ul:nth-of-type(4) li:nth-child(3), .menu ul:nth-of-type(4) li:nth-child(5), .menu ul:nth-of-type(5) li:nth-child(1), .menu ul:nth-of-type(5) li:nth-child(3), .menu ul:nth-of-type(5) li:nth-child(5){
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 2vh;
+    color: #474545;
+}
+
+.menu ul:nth-of-type(2) li:nth-child(2), .menu ul:nth-of-type(2) li:nth-child(4), .menu ul:nth-of-type(2) li:nth-child(6), .menu ul:nth-of-type(3) li:nth-child(2), .menu ul:nth-of-type(3) li:nth-child(4), .menu ul:nth-of-type(3) li:nth-child(6),
+.menu ul:nth-of-type(4) li:nth-child(2), .menu ul:nth-of-type(4) li:nth-child(4), .menu ul:nth-of-type(4) li:nth-child(6), .menu ul:nth-of-type(5) li:nth-child(2), .menu ul:nth-of-type(5) li:nth-child(4), .menu ul:nth-of-type(5) li:nth-child(6){
+    font-size: 12px;
+    margin-bottom: 4vh;
+    color: #8c8a8a;
+}
+
+.menu ul:nth-of-type(4), .menu ul:nth-of-type(5){
+    font-family: 'Playfair Display';
+    list-style: none;
+    position: absolute;
+    top: 100vh;
+    width: 43.5%;
+    min-height: 20%;
+}
+
+.horiLine{
+    position: absolute;
+    top: 85vh;
+    left: 5%;
+    border-bottom: 1px solid #151515;
+    width: 40%;
+    height: 1px;
+}
+
+.menu p{
+    font: normal normal 16px 'Playfair Display';
+    letter-spacing: 0.2em;
+    color: #151515;
+    position: absolute;
+    top: 87vh;
+    left: 5%;
+}
+
+.gallery{
+    width: 90%;
+    height: 260vh;
+    position: absolute;
+    top: 240vh;
+    left: 5%;
+}
+
+.gallery img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.footerMenu{
+    position: absolute;
+    top: 500vh;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}

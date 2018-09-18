@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Playfair+Display|Vidaloka');
+
+#homepage{
+    min-height: 500vh;
+    overflow-x: hidden;
+}
+
+#vertiLineHP1, #vertiLineHP2{
+    border-left: 1px solid #398DA7;
+    z-index: 5;
+    position: absolute;
+    top: 85vh;
+    left: 50%;
+    width: 1px;
+    height: 22vh;
+
+}
+
+
+#vertiLineHP2{
+    top: 65vh;
+    height: 15vh !important;
+}
+
+.aboutHP{
+    position: absolute;
+    top: 100vh;
+    left: 0;
+    height: 60vh;
+    width: 100%;
+}
+
+.aboutHP ul{
+    list-style-type: none;
+    position: absolute;
+    letter-spacing: 0.2em;
+    top: 14.5%;
+    left: 15%;
+    width: 70%;
+}
+
+.aboutHP ul li:first-child{
+    font: normal normal 12px 'Playfair Display';
+    text-transform: uppercase;
+    margin-left: 32.5%;
+}
+
+
+.aboutHP ul li:nth-child(2){
+    font: normal normal 14px 'Playfair Display';
+    margin: 3vh 10% 10vh;
+}
+
+.aboutHP ul button{
+    font: normal normal 14px 'Playfair Display';
+    border: 1px solid #151515;
+    width: 20%;
+    height: 8vh;
+    background-color: transparent;
+    outline: none;
+    text-transform: uppercase;
+    margin-left: 35%;
+    cursor: pointer;
+}
+
+.sectionsHP{
+    position: absolute;
+    top: 160vh;
+    left: 0;
+    width: 100%;
+    height: 140vh;
+}
+
+#breakfastHP{
+    background-image: url("./images/breakfastHP.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: -5%;
+    left: 5%;
+    height: 80vh;
+    width: 22.5%;
+    cursor: pointer;
+    opacity: 0;
+}
+
+#mainHP{
+    background-image: url("./images/mainHP.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 5%;
+    left: 27.5%;
+    width: 22.5%;
+    height: 80vh;
+    cursor: pointer;
+    opacity: 0;
+}
+
+#dessertHP{
+    background-image: url("./images/dessetHP.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    height: 80vh;
+    width: 22.5%;
+    cursor: pointer;
+    opacity: 0;
+}
+
+#drinksHP{
+    background-image: url("./images/drinkHP.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 25%;
+    left: 72.5%;
+    height: 80vh;
+    width: 22.5%;
+    cursor: pointer;
+    opacity: 0;
+}
+
+#overlayHP1, #overlayHP2, #overlayHP3, #overlayHP4{
+    background-color: rgba(0, 0, 0, 0.35);
+    width: 100%;
+    height: 100%;
+}
+
+.sectionsHP p{
+    font: normal normal 12px 'Playfair Display';
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    position: absolute;
+    left: 3%;
+    bottom: 5vh;
+}
+
+.popular{
+    background-color: #f7f7f7;
+    position: absolute;
+    top: 300vh;
+    left: 0;
+    width: 100%;
+    min-height: 140vh;
+}
+
+
+div[id^="popular"] {
+    position: absolute;
+    opacity: 0;
+    top: 55%;
+    width: 30%;
+    height: 40%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.popularOverlay{
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+}
+
+#popular1{
+    background-image: url("./images/popular1.png");
+    left: 2.5%;
+}
+
+#popular2{
+    background-image: url("./images/popular2.png");
+    left: 35%;
+}
+
+#popular3{
+    background-image: url("./images/popular3.png");
+    left: 67.5%;
+}
+
+#popular_title{
+    list-style-type: none;
+    color: #101011;
+    text-align: center;
+    width: 50%;
+    position: absolute;
+    top: 5%;
+    left: 21.5%;
+}
+
+#popular_title li:first-child{
+    font: normal normal 24px 'Vidaloka', sans-serif;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10% 10% 5%;
+}
+
+#popular_title li:nth-child(2){
+    border-bottom: 1px solid #45869D;
+    margin: 0 35% 5%;
+    width: 30%;
+    height: 1px;
+}
+
+#popular_title li:last-child{
+    font: normal normal 14px 'Playfair Display', sans-serif;
+    letter-spacing: 0.2em;
+    text-align: center;
+    margin: 2% 0 0;
+}
+
+.popular_descr{
+    list-style-type: none;
+    position: absolute;
+    top: 87.5%;
+    width: 27.5%;
+}
+
+.popular_descr li:first-child{
+    font: normal normal 14px 'Vidaloka', sans-serif;
+    letter-spacing: 0.3em;
+    margin-bottom: 3%;
+}
+
+.popular_descr li:last-child{
+    font: normal normal 12px 'Playfair Display', sans-serif;
+    letter-spacing: 0.2em;
+}
+
+.popular_descr:first-of-type{
+    left: 1.5%;
+}
+
+.popular_descr:nth-last-of-type(2){
+    left: 31.5%;
+}
+
+.popular_descr:last-of-type{
+    left: 64.5%;
+}
+
+
+.slogan{
+    background-image: url("./images/slogan.png");
+    background-size: 100% 130%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: absolute;
+    left: 0;
+    top: 470vh;
+    width: 100%;
+    height: 70vh;
+}
+
+#overlaySlogan{
+    background-color: rgba(0, 0, 0, 0.35);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#overlaySlogan p{
+    font: normal normal 16px 'Vidaloka';
+    text-align: center;
+    letter-spacing: 0.2em;
+    color: #ffffff;
+    margin: 25vh 0 8vh;
+}
+
+#overlaySlogan button{
+    background-color: transparent;
+    outline: none;
+    text-transform: uppercase;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    width: 20%;
+    height: 8vh;
+    margin-left: 40%;
+    cursor: pointer;
+}
+
+.testimonial{
+    background-color: #f6f0eb;
+    width: 100%;
+    height: 60vh;
+    position: absolute;
+    top: 540vh;
+    left: 0;
+}
+
+.testimonial p{
+    font: normal normal 24px 'Vidaloka';
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 15vh;
+}
+.testimonial ul{
+    list-style: none;
+    letter-spacing: 0.2em;
+    font-family: 'Playfair Display';
+    width: 44%;
+    position: absolute;
+    top: 25vh;
+    left: 28%;
+    text-align: center;
+    opacity: 0;
+}
+
+.testimonial ul li:first-child{
+    font-size: 12px;
+    width: 80%;
+    margin-bottom: 2vh;
+}
+
+
+.testimonial ul li:nth-child(2){
+    font-size: 10px;
+    position: absolute;
+    left: 14%;
+    top: 20vh;
+    text-align: center;
+    width: 60%;
+}
+
+.galleryHP{
+    position: absolute;
+    overflow: hidden;
+    top: 680vh;
+    left: 0;
+    width: 100%;
+    height: 60vh;
+}
+
+.footerHP{
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    top: 730vh;
+    width: 100%;
+    height: 100vh;
+}
+
+.reservationHP{
+    position: absolute;
+    left: 0;
+    top: 600vh;
+    width: 100%;
+    height: 72.5vh;
+}

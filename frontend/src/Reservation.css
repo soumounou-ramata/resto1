@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Playfair+Display|Vidaloka');
+
+#reservation{
+    width: 100%;
+    height: 100%;
+}
+
+#reservation p{
+    font: normal normal 24px 'Vidaloka', sans-serif;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    padding-top: 5vh;
+    text-align: center;
+}
+
+#horiLineRE{
+    border-bottom: 1px solid #45869D;
+    margin: 0 41% 5%;
+    width: 18%;
+    height: 1px;
+}
+
+#firstname, #lastname, #phone, #email{
+    font: normal normal 12px 'Vidaloka', sans-serif;
+    color: #021218;
+    border: 1px solid #dddddd;
+    padding-left: 1vw;
+    position: absolute;
+    top: 30vh;
+    width: 18.75%;
+    height: 6vh;
+}
+
+#date, #guests, #time, #message{
+    font: normal normal 14px 'Vidaloka', sans-serif;
+    border: 1px solid #dddddd;
+    color: #021218;
+    padding-left: 1vw;
+    position: absolute;
+    top: 40vh;
+    width: 18.75%;
+    height: 6vh;
+}
+
+#firstname, #guests{
+    left: 10%;
+}
+
+#lastname, #date{
+    left: 30%;
+}
+
+#guests, #time{
+    height: 7vh !important;
+    width: 19.85%;
+}
+
+#phone, #time{
+    left: 50%;
+}
+
+#email, #message{
+    left: 70%;
+}
+
+#date{
+    border: none;
+    height: 6.25vh;
+    width: 19.25%;
+}
+
+#submitReservation{
+    font: normal normal 14px 'Vidaloka', sans-serif;
+    border: none;    
+    background-color: #021218;
+    color: #ffffff;
+    position: absolute;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    outline: none;
+    cursor: pointer;
+    top: 55vh;
+    left: 40%;
+    width: 20%;
+    height: 12vh;
+}
+
+#confirmation, #cannotConfirm{
+    z-index: 30;
+    position: absolute;
+    top: 10%;
+    left: -120%;
+    height: 80vh;
+    width: 80%;
+}
+
+#closeConfir, #closeCannotConfirm{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    color: #021218;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.photoConfir{
+    background-image: url("./images/confirmation.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 100%;
+}
+
+#photoConfir div{
+    background-color: rgba(0, 0, 0, 0.35);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#contentConfir, #contentCannotConfirm{
+    background-color: #f6f0eb;
+    color: #021218;
+    letter-spacing: 0.25em;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60%;
+    height: 100%;
+}
+
+
+#contentConfir p:first-of-type{
+    font: normal normal 24px 'Vidaloka', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+#contentConfir p:nth-of-type(2), #contentCannotConfirm p:nth-of-type(1){
+    font: normal normal 14px 'Vidaloka', sans-serif;
+    margin: 5vh;
+}
+
+#contentCannotConfirm p:nth-of-type(1){
+    padding-top: 30vh;
+    color: #ff0000;
+}
+#contentConfir ul{
+    font: normal normal 12px 'Vidaloka', sans-serif;
+    margin-top: 20vh;
+    letter-spacing: 0.25em;
+    list-style: none;
+}
+
+#contentConfir ul li{
+    margin-bottom: 2vh;
+}

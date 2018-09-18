@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Playfair+Display|Vidaloka');
+
+#landingpage{
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+
+#landing1, #landing2, #landing3, #landing4{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+
+#landing1 img, #landing2 img, #landing3 img, #landing4 img{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.overlayLP{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    text-align: center;
+    color: #ffffff;
+    letter-spacing: 0.25em;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+
+.overlayLP p:nth-of-type(1){
+    font: normal 100 12px 'Vidaloka', sans-serif;
+    margin: 35vh 0 3vh;
+    opacity: 0;
+    text-transform: uppercase;
+}
+
+.overlayLP p:nth-of-type(2){
+    font: normal normal 60px 'Vidaloka', sans-serif;
+    margin: 0 0 3vh;
+    opacity: 0;
+}
+
+.overlayLP p:nth-of-type(3){
+    font: normal normal 14px 'Vidaloka', sans-serif;
+    margin: 0 0 3vh;
+    text-transform: uppercase;
+    opacity: 0;
+}
